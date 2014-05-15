@@ -1,2 +1,22 @@
 // import each module
 @import "modules/color";
+
+@import url(//fonts.googleapis.com/css?family=Lato:400,700,400italic|Merriweather:400,700);
+
+
+
+$brand-face:          "Merriweather",sans-serif!default;
+$default-face:        "Lato",sans-serif!default;
+
+
+
+
+// Typography
+$font-size-base: 14px !default;
+$font-size-h1: floor($font-size-base * 3.42) !default;
+$font-size-h2: floor($font-size-base * 2.71) !default;
+$font-size-h3: floor($font-size-base * 2) !default;
+$font-size-h4: floor($font-size-base * 1.25) !default;
+$font-size-h5: $font-size-base !default;
+
+$headings-line-height: 1.2        !default

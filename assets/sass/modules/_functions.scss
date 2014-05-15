@@ -1,0 +1,17 @@
+@function get-head-fontsize($num) {
+  @if $num == 1 {
+    @return $font-size-h1;
+  }
+  @else if $num == 2 {
+    @return $font-size-h2;
+  }
+  @else if $num == 3 {
+    @return $font-size-h3;
+  }
+  @else if $num == 4 {
+    @return $font-size-h4;
+  }
+  @else if $num == 5 {
+    @return $font-size-h5;
+  }
+}

@@ -1,0 +1,21 @@
+html, body{
+  font-family:$default-face;
+}
+
+
+%headBase {
+  font-weight: bold;
+  line-height: $headings-line-height;
+}
+
+
+@for $num from 1 through 5 {
+  h#{$num} {
+    @extend %headBase;
+    font-size: get-head-fontsize($num);
+    font-family:$brand-face;
+  }
+}
+
+
+
